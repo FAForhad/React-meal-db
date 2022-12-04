@@ -1,0 +1,22 @@
+.nav {
+    background-color: limegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.points ul {
+    display: flex;
+    list-style: none;
+}
+
+.points ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.points ul a {
+    color: aliceblue;
+    text-decoration: none;
+}

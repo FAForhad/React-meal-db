@@ -1,0 +1,44 @@
+.sarchField {
+    background-color: limegreen;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sarchField input {
+    padding: 15px 40px;
+    border-right: none;
+}
+
+.sarchField button {
+    background-color: greenyellow;
+    padding: 15px 20px;
+    border-left: none;
+}
+
+.sarchField button:hover {
+    background-color: lime;
+}
+
+.mealsCart {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.meal {
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.meal img {
+    border-radius: 10px;
+    width: 225px;
+}
+
+
+.cart {
+    text-align: center;
+    background-color: limegreen;
+}
